@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "standard": {
+    "name": "cbt-site-standard",
+    "version": "1.4.0",
+    "referenceRepository": "YunSangYeong/electrician-cbt",
+    "referenceCommit": "b9a682ccff1b460334b78d5bfad9375b7ec4fbb6"
+  },
+  "qualification": {
+    "name": "일식조리기능사",
+    "slug": "japanese-cook",
+    "officialIssuer": "한국산업인력공단",
+    "rulesVerificationStatus": "pending",
+    "officialSources": [
+      "https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=7912"
+    ],
+    "verifiedAt": null
+  },
+  "exam": {
+    "questionCount": 60,
+    "durationMinutes": 60,
+    "choiceCount": 4,
+    "subjects": [
+      "일식 재료관리, 음식조리 및 위생관리"
+    ],
+    "selectionPolicy": "학습용: family별 1회 우선, 부족 시 다른 ID 보충. 공식 분포 미확인",
+    "scoring": {
+      "maxScore": 100,
+      "passScore": 60,
+      "hasSubjectCutoff": false,
+      "subjectCutoffs": [],
+      "unansweredPolicy": "오답"
+    }
+  },
+  "questionBank": {
+    "defaultBankId": "main",
+    "targetReviewedCount": 1000,
+    "importedDefaultStatus": "pending",
+    "types": [
+      "past",
+      "reconstructed",
+      "original"
+    ],
+    "allowNumericVariants": null,
+    "reportVariantFamiliesAndCounts": true
+  },
+  "ui": {
+    "locale": "ko-KR",
+    "showStudyCriteriaSelector": false,
+    "showBankYearRange": false,
+    "nextQuestionShortcut": "Space",
+    "shortcutModes": [
+      "exam",
+      "practice"
+    ],
+    "requireAnswerBeforeGlobalShortcut": true,
+    "autoSubmitLastQuestionOnSpace": false,
+    "officialBranding": false,
+    "showTopDisclaimerBanner": false,
+    "disclosureLocations": [
+      "footer-or-sidebar",
+      "question-bank-or-source-details",
+      "documentation"
+    ],
+    "showActionableStorageErrors": true,
+    "mobileMenuScrollable": true,
+    "mobileMenuSmallHeightRegressionRequired": true,
+    "mobileMenuTouchScrollVerificationRequired": true
+  },
+  "storage": {
+    "namespace": "Craftsman-Cook-Japanese-Food--CBT:v1",
+    "schemaVersion": 1,
+    "maxAttempts": 5000,
+    "maxExamResults": 30
+  },
+  "deployment": {
+    "provider": "github-pages",
+    "repository": "YunSangYeong/Craftsman-Cook-Japanese-Food--CBT",
+    "branch": "main",
+    "basePath": "/Craftsman-Cook-Japanese-Food--CBT/",
+    "publicUrl": "https://YunSangYeong.github.io/Craftsman-Cook-Japanese-Food--CBT/",
+    "blogIframe": true,
+    "executedBy": "agent-when-authorized",
+    "trigger": "push-main-after-validation",
+    "automaticDeploymentOnPush": true,
+    "agentMayExecuteDeployment": true,
+    "requiresUserDeploymentRequest": true,
+    "maxDeploymentAttempts": 1,
+    "stopOnFirstBlock": true,
+    "userRole": "initial-settings-or-required-approval-only",
+    "explicitUserRestrictionsTakePrecedence": true
+  }
+}

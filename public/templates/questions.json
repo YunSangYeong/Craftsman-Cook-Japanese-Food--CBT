@@ -1,0 +1,25 @@
+[
+  {
+    "id": "JP-IMPORT-EXAMPLE",
+    "subject": "일식 재료관리, 음식조리 및 위생관리",
+    "topic": "일식 조리 기초",
+    "question": "다시마 육수의 주된 감칠맛 성분은?",
+    "choices": [
+      "카페인",
+      "유당",
+      "펙틴",
+      "글루탐산"
+    ],
+    "answer": 4,
+    "explanation": "글루탐산. 이 문항은 해당 기본 원칙을 묻는 자체 제작 학습문항입니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Cook-Japanese-Food--CBT",
+    "verificationStatus": "pending",
+    "reviewNote": "",
+    "version": "main",
+    "rights": "자체 제작 학습문항, CC BY 4.0. 출처: 본 저장소. 공식 기출 아님."
+  }
+]

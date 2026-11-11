@@ -1,0 +1,2 @@
+id,subject,topic,question,choice1,choice2,choice3,choice4,answer,explanation,difficulty,year,session,type,sourceUrl,verificationStatus,reviewNote,version,rights
+JP-IMPORT-EXAMPLE,"일식 재료관리, 음식조리 및 위생관리",일식 조리 기초,다시마 육수의 주된 감칠맛 성분은?,카페인,유당,펙틴,글루탐산,4,글루탐산. 이 문항은 해당 기본 원칙을 묻는 자체 제작 학습문항입니다.,하,,,original,https://github.com/YunSangYeong/Craftsman-Cook-Japanese-Food--CBT,pending,,main,"자체 제작 학습문항, CC BY 4.0. 출처: 본 저장소. 공식 기출 아님."
